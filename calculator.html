@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="css/calculator.css">
+        <script src="calculator.js" defer charset="utf-8"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </head>
+    <body>
+        <div>
+            <div>
+                <label for="input" style="display: block;">Bill</label>
+                <input id="input" placeholder="$ 0" type="number" style="display:block;"/>
+                <button id="10" onclick="tipCalculator1()" type="button" name="button">5 <span>%</span></button>
+                <button id="25" onclick="tipCalculator2()" type="button" name="button">10</button>
+                <button id="50" onclick="tipCalculator3()" type="button" name="button">15</button>
+                <button id="75" onclick="tipCalculator4()" type="button" name="button">20</button>
+                <button id="100" onclick="tipCalculator5()" type="button" name="button">50</button>
+                <h1 id="answer">
+                    This is the result
+                </h1>
+            </div>
+            <div></div>
+        </div>
+
+        
+    </body>
+</html>
